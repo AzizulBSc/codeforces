@@ -17,7 +17,6 @@ int main(){
             }
         }
         cout<<count1<<endl;
-
     }
     return 0;
 }
