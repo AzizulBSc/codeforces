@@ -10,14 +10,13 @@ int main(){
         for(int i = 0;i<n;i++){
            cin>>a[i];
         }
-        int count = 0;
+        int count1 = 0;
         for (int i = 0;i<k;i++){
             if(a[i]>k){
-                count++;
+                count1++;
             }
         }
-        cout<<count<<endl;
-
+        cout<<count1<<endl;
     }
     return 0;
 }
